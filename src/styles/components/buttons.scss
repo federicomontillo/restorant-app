@@ -1,0 +1,73 @@
+
+//Botones
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+
+    &:focus {
+        outline: none;
+    }
+    
+}
+
+.btn-end {
+    text-align: end;
+}
+
+//Boton Verde
+
+.btn-green {
+    background-color: #4BF052;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: #1BA822;
+    }
+
+    &:disabled {
+        background-color: #84E689;
+        color: $light-grey;
+    }
+    
+}
+
+//Boton Rojo
+
+.btn-red {
+    background-color: #F73D3D ;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: #F50202 ;
+    }
+
+    &:disabled {
+        background-color: #F57979;
+        color: $light-grey;
+    }
+    
+}
+
+//Boton Amarillo
+
+.btn-yellow {
+    background-color: #F5DC53 ;
+    transition: background-color .3s ease;
+
+    &:hover {
+        background-color: #FFD800 ;
+    }
+
+    &:disabled {
+        background-color: #F6E47E;
+        color: $light-grey;
+    }
+    
+}

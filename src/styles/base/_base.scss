@@ -1,0 +1,40 @@
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+// Background HTML
+
+html, body {
+    background-image: url(../../img/Background1ligth.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+}
+
+
+main {
+    width: 100%;
+}
+
+.mt-1 {
+    margin-top: 5px;
+}
+
+.mt-5 {
+    margin-top: 20px;
+}
+
+.mb-1 {
+    margin-bottom: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+
+.pedidos__titulo {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.pedidos__grid-pedidos {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    
+}
+
+.pedidos__pedido {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 2px solid black;
+    color: black;
+    padding: 10px;
+}
+
+.pedidos__pedido h3 {
+    text-align: center;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.pedidos__pedido h3 span {
+    color: $primary;
+}
+
+.pedidos__pedido h4 {
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    background: rgba(26, 25, 25, 0.5);   
+}
+
+.pedidos__pedido h4 i {
+    font-size: 25px;
+    color: #1A7102;   
+}
+
+.pedidos__buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pedidos__pedido ul li{
+    padding: 5px;
+}
+
+.pedidos__pedido ul li span {
+    float: right;
+}
